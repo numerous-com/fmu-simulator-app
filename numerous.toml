@@ -1,0 +1,9 @@
+name = "Numerous FMU Simulator"
+description = "An app where you can upload an FMU, configure inputs, run a simulation and get results."
+library = "streamlit"
+python = "3.12"
+app_file = "app.py"
+requirements_file = "requirements.txt"
+port = 80
+cover_image = "app_cover.jpg"
+exclude = ["*venv", "venv*", ".git", ".env"]

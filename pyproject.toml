@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fmu-simulator-app"
+readme = "README.md"
+version = "0.1.0"
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["fmpy",
+    "panel",
+    "hvplot"
+    ]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "numerous"
+    ]
